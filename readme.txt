@@ -1,16 +1,12 @@
 =====================================================
- * Nonstop Espacenet * (2012/1/25)
-     Copyright(C) 2012 by D*isuke YAMAKAWA
+ * Nonstop Espacenet * (2014/6/23)
+     Copyright(C) 2012-2014 by D*isuke YAMAKAWA
  
 =====================================================
-バージョン  ： β
+バージョン  ： Ver.0.0.3 (β)
 
 動作対象    : Excel2003以上
-
-動作確認    : Excel2003 / WindowsXP
-
-動作未確認  ： Excel2010 / Windows7
-               Excel2010 / Windows2008R2
+動作確認    : Excel2013 / Windows 8.1
 
 ソフト種別  :フリーソフトウェア
 配布条件    :オリジナルファイルを全て添付で、配布自由。ただし、必ず無料で。
@@ -19,9 +15,8 @@
 
 ■　概要
 ￣￣￣￣
-本マクロは、
-Excelのセルに入力した文献番号をもとに、
-GooglePatentで当該文献を検索するマクロです。
+本マクロは、Excelのセルに入力した文献番号をもとに、
+Espacenet , GooglePatentで当該文献番号を自動検索するマクロです。
 
 
 ■　インストール方法
@@ -55,7 +50,7 @@ GooglePatentで当該文献を検索するマクロです。
 
 ■　連絡先
 ￣￣￣￣￣
-D*isuke YAMAKAWA (山川大輔)
+D*isuke YAMAKAWA (山川大輔)　ClockAhead
 
-Mail: support@clockahead.com
 Web : http://www.clockahead.com/
+Mail: 上記公式サイトの問い合わせフォームよりお問い合わせください。

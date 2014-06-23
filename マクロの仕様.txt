@@ -1,5 +1,3 @@
-NonStop_googlePatent.xla　及びNonStop_espacenet.xlaに関して
-
 【使い方】
 文献番号が記載されたセルを選択して、マクロのボタンをクリック。
 
@@ -8,7 +6,7 @@ NonStop_googlePatent.xla　及びNonStop_espacenet.xlaに関して
 	・空白は存在しないものとして扱います
 
 【細かな仕様】
-GooglePatentのマクロに関して
+■　GooglePatentを開く場合
 	　セル内に含まれている以下の文字は存在しないものとして検索しています。
 	・「US」
 	・末尾の「B」、「A」、「A1」など
@@ -20,7 +18,7 @@ GooglePatentのマクロに関して
 	そうでない場合は、
 	　ApplicationNumberとみなして検索します。」
 
-Espacenetのマクロに関して
+■　Espacenetを開く場合
 	　セル内に含まれている以下の文字は存在しないものとして検索しています。
 	・「/」や「-」
 	・末尾の「B」、「A」、「A1」など
