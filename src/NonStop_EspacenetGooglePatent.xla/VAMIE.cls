@@ -47,8 +47,8 @@ Property Get Document() As Boolean
     Document = ie.Document
 End Property
 
-Property Get URL() As String
-    URL = ie.LocationURL
+Property Get url() As String
+    url = ie.LocationURL
 End Property
 
 Sub Class_Initialize()
@@ -56,14 +56,14 @@ Sub Class_Initialize()
     ie.Visible = True
 End Sub
 
-Sub goto_url(URL)
-    ie.Navigate URL
+Sub goto_url(url)
+    ie.Navigate url
     waitIE
 End Sub
 
 ' waitIEを挟むと無限ループするようなページ対策
-Sub goto_url_NoWait(URL)
-    ie.Navigate URL
+Sub goto_url_NoWait(url)
+    ie.Navigate url
 End Sub
 
 Sub Quit()

@@ -1,4 +1,4 @@
-Attribute VB_Name = "Espa"
+Attribute VB_Name = "Espacenet"
 Option Explicit
 
 Sub VAMIE_espacenet()
@@ -11,7 +11,7 @@ Sub VAMIE_espacenet()
     Next cell
 End Sub
 
-Sub OpenBrowser(ByVal num As String)
+Private Sub OpenBrowser(ByVal num As String)
 On Error GoTo ErrorHandler
     Dim ie As VAMIE
     Set ie = New VAMIE
@@ -21,7 +21,7 @@ On Error GoTo ErrorHandler
     Call ie.submit_click("Submit", "name")
     
     Dim objWSH: Set objWSH = CreateObject("WScript.Shell")
-    objWSH.Run ie.URL, 1
+    objWSH.Run ie.url, 1
     ie.Quit
 ErrorHandler:
 End Sub
@@ -33,7 +33,7 @@ End Sub
 
 ' NationCode +  Patent/Application Numberを抜き出す
 ' ※ 多様な記載方法に対応するのはめんどくさいため手抜き
-Function FormatNum(num)
+Private Function FormatNum(num)
     Dim temp As String
     
     temp = num
